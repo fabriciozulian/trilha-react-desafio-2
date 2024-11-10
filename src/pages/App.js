@@ -37,6 +37,7 @@ function App() {
     console.log('Removendo registro', id);
 
     // utilizar filter.
+     setRepos(repos.filter((rep) => rep.id !== id));
   }
 
 
